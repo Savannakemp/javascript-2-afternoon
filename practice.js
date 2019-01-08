@@ -16,7 +16,7 @@
 
 //Code here
 var me = {
-  name: 'savanna',
+  name: 'Savanna',
   age: 24
 }
 alert(me.name);
@@ -33,13 +33,13 @@ alert(me.name);
 
 //Code here
 var favoriteThings = {
-  band: 'Kygo',
+  band: 'Pink Floyd',
   food: 'Italian',
   person: 'Josh',
-  book: 'Nocturnal Animals',
+  book: 'Tuck Everlasting',
   movie: 'Lion King',
-  holiday: 'New Years'
-};
+  holiday: 'birthday'
+ };
 
 
 /*
@@ -60,8 +60,8 @@ favoriteThings.brand = 'G-Wagon';
 
 //Code here
 
-favoriteThings.food = 'Chicken Nuggets';
-favoriteThings.book = 'Harry Potter';
+favoriteThings.food = 'Chicken Nuggets',
+favoriteThings.book = 'Harry Potter'
 
 ////////// PROBLEM 3 //////////
 
@@ -74,16 +74,15 @@ favoriteThings.book = 'Harry Potter';
 */
 
 //Code here
-backPack = {
+var backPack = {
 
 }
 var item = 'firstPocket';
-backPack[item] = 'chapstick';
-backPack.color = 'black';
+item.firstPocket = 'chapstick',
+item.color = black;
 
-/*
-  After you do the above, alert your entire backPack object.
-*/
+//   */ After you do the above, alert your entire backPack object.
+// */
 
 //Code here
 alert(backPack);
@@ -119,8 +118,8 @@ var user2 = {
 */
 
 //Code Here
-user2.name = 'Tyler S. McGinnis';
-user2.email = 'tyler.mcginnis@devmounta.in';
+user2.name = 'Tyler S McGinnis',
+user2.email = 'tyler.mcginnis@devmounta.in'
 
 
 
